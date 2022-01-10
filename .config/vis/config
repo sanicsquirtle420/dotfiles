@@ -1,0 +1,8 @@
+visualizer.spectrum.top.margin=0.10
+visualizer.spectrum.bottom.margin=0.10
+visualizer.spectrum.right.margin=0.00
+visualizer.spectrum.left.margin=0.00
+
+colors.scheme=blue,quints
+
+audio.sources=pulse
