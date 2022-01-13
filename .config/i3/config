@@ -180,10 +180,11 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 # window colors
-#                       border                  background              text                    indicat>
-client.focused          #4a4e52                 #4a4e52                 #000000                 #00ff00
-client.unfocused        #2B2D2F                 #2B2D2F                 #A9A9A9                 #00ff00
-client.urgent           #E53935                 #E53935                 #FFFFFF                 #00ff00
+#                        border                  background              text                    indicator
+client.focused           #08626e                 #08626e                 #FFFFFF                 #00ff00
+client.focused_inactive  #290b20                 #290b20                 #A9A9A9                 #00ff00
+client.unfocused         #290b20                 #290b20                 #A9A9A9                 #00ff00
+client.urgent            #450404                 #450404                 #FFFFFF                 #00ff00
 
 # starting compton
 exec_always compton -f
