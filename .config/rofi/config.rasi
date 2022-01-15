@@ -2,7 +2,7 @@ configuration {
   display-drun: "Applications:";
   display-window: "Windows:";
   drun-display-format: "{name}";
-  font: "Sans 10";
+  font: "Arimo Nerd Font Regular 10";
   modi: "window,run,drun";
   show-icons:   true;
   icon-theme:   "Dracula";
@@ -11,11 +11,11 @@ configuration {
 @theme "/dev/null"
 
 * {
-  bg: #11121D;
-  bg-alt: #444b6a;
+  bg: #5D3FD3;
+  bg-alt: #89CFF0;
 
-  fg: #FFFFFF;
-  fg-alt: #787c99;
+  fg: #000000;
+  fg-alt: #E5E4E2;
 
   background-color: @bg;
 
