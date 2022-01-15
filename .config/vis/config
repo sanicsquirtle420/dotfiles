@@ -1,8 +1,10 @@
+visualizer.spectrum.smoothing.mode=none
+
 visualizer.spectrum.top.margin=0.10
 visualizer.spectrum.bottom.margin=0.10
 visualizer.spectrum.right.margin=0.00
 visualizer.spectrum.left.margin=0.00
 
-colors.scheme=blue,quints
+colors.scheme=blue,quints,ichika,nino,miku,yotsuba,itsuki
 
 audio.sources=pulse
