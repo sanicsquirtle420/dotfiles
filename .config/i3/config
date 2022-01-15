@@ -13,12 +13,9 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Sans 10
+font pango:Arimo Nerd Font Regular 12
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
-
-# text rendering and scalability on etina/hidpi displays (thanks to pango).
-#font pango:DejaVu Sans Mono 8
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -181,9 +178,9 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 # window colors
 #                        border                  background              text                    indicator
-client.focused           #08626e                 #08626e                 #FFFFFF                 #00ff00
-client.focused_inactive  #290b20                 #290b20                 #A9A9A9                 #00ff00
-client.unfocused         #290b20                 #290b20                 #A9A9A9                 #00ff00
+client.focused           #89CFF0                 #89CFF0                 #000000                 #00ff00
+client.focused_inactive  #5D3FD3                 #5D3FD3                 #E5E4E2                 #00ff00
+client.unfocused         #5D3FD3                 #5D3FD3                 #E5E4E2                 #00ff00
 client.urgent            #450404                 #450404                 #FFFFFF                 #00ff00
 
 # starting compton
@@ -194,19 +191,19 @@ exec_always compton -f
 bar {
   status_command i3blocks -c /home/raccoon/.config/i3blocks/config
   #font pango:Dejavu Sans Mono 9
-  font pango:Sans 12
+  font pango:Arimo Nerd Font Regular 14
   mode dock
   position top
   tray_output eDP-1
   workspace_buttons yes
   strip_workspace_numbers yes
   colors {
-    background #2B2D2F
+    background #5D3FD3
     statusline #ffffff
     #<colorclass>      <border>  <bg>     <text>
-    focused_workspace  #11121D   #11121D  #ffffff
-    active_workspace   #000000   #11121D  #ffffff
-    inactive_workspace #000000   #11121D  #ffffff
+    focused_workspace  #89CFF0   #89CFF0  #000000
+    active_workspace   #000000   #89CFF0  #000000
+    inactive_workspace #000000   #5D3FD3  #E5E4E2
     urgent_workspace   #900000   #900000  #ffffff
     # brown, grey and orange color scheme
     #focused_workspace  #E57910 #E57910 #ffffff
