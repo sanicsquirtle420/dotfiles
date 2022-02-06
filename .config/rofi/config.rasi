@@ -5,7 +5,7 @@ configuration {
   font: "Arimo Nerd Font Regular 10";
   modi: "window,run,drun";
   show-icons:   true;
-  icon-theme:   "Dracula";
+  icon-theme:   "dracula-icons";
 }
 
 @theme "/dev/null"
