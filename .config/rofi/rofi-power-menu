@@ -147,10 +147,8 @@ while true; do
             ;;
     esac
 done
-
 # Define the messages after parsing the CLI options so that it is possible to
 # configure them in the future.
-
 function write_message {
     icon="<span font_size=\"medium\">$1</span>"
     text="<span font_size=\"medium\">$2</span>"
@@ -161,11 +159,9 @@ function write_message {
         echo -n "$text"
     fi
 }
-
 function print_selection {
     echo -e "$1" | $(read -r -d '' entry; echo "echo $entry")
 }
-
 declare -A messages
 declare -A confirmationMessages
 for entry in "${all[@]}"
@@ -177,7 +173,6 @@ do
     confirmationMessages[$entry]=$(write_message "${icons[$entry]}" "Yes, ${texts[$entry]}")
 done
 confirmationMessages[cancel]=$(write_message "${icons[cancel]}" "No, cancel")
-
 if [ $# -gt 0 ]
 then
     # If arguments given, use those as the selection
@@ -189,12 +184,10 @@ else
         selection="${messages[$selectionID]}"
     fi
 fi
-
 # Don't allow custom entries
 echo -e "\0no-custom\x1ftrue"
 # Use markup
 echo -e "\0markup-rows\x1ftrue"
-
 if [ -z "${selection+x}" ]
 then
     echo -e "\0prompt\x1fPower menu"
