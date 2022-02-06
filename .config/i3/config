@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Arimo Nerd Font Regular 12
+font pango:Arimo Nerd Font Regular 10
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 
@@ -149,30 +149,28 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec rofi -show powermenu -modi powermenu:~/.local/bin/rofi-power-menu
+bindsym $mod+Shift+e exec rofi -show p -modi p:rofi-power-menu   -font "Arimo Nerd Font 12"   -width 5   -lines 6
 # resize window (you can also use the mouse for that)
 mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
+       # These bindings trigger as soon as you enter the resize mode
 
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+       # Pressing left will shrink the windows width.
+       # Pressing up will shrink the windows height.
+       bindsym j resize shrink width 10 px or 10 ppt
+       bindsym k resize grow height 10 px or 10 ppt
+       bindsym l resize shrink height 10 px or 10 ppt
+       bindsym semicolon resize grow width 10 px or 10 ppt
 
-        # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
+       # same bindings, but for the arrow keys
+       bindsym Left resize shrink width 10 px or 10 ppt
+       bindsym Down resize grow height 10 px or 10 ppt
+       bindsym Up resize shrink height 10 px or 10 ppt
+       bindsym Right resize grow width 10 px or 10 ppt
 
-        # back to normal: Enter or Escape or $mod+r
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-        bindsym $mod+r mode "default"
+       # back to normal: Enter or Escape or $mod+r
+       bindsym Return mode "default"
+       bindsym Escape mode "default"
+       bindsym $mod+r mode "default"
 }
 
 bindsym $mod+r mode "resize"
@@ -184,31 +182,22 @@ client.unfocused         #5D3FD3                 #5D3FD3                 #E5E4E2
 client.urgent            #450404                 #450404                 #FFFFFF                 #00ff00
 
 # starting compton
-exec_always compton -f
+exec_always compton --config ~/.config/compton.conf
+
+# i3-gaps stuff
+gaps inner 10
+gaps outer 0
+smart_gaps on
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available
-bar {
-  status_command i3blocks -c /home/raccoon/.config/i3blocks/config
-  #font pango:Dejavu Sans Mono 9
-  font pango:Arimo Nerd Font Regular 14
-  mode dock
-  position top
-  tray_output eDP-1
-  workspace_buttons yes
-  strip_workspace_numbers yes
-  colors {
-    background #5D3FD3
-    statusline #ffffff
-    #<colorclass>      <border>  <bg>     <text>
-    focused_workspace  #89CFF0   #89CFF0  #000000
-    active_workspace   #000000   #89CFF0  #000000
-    inactive_workspace #000000   #5D3FD3  #E5E4E2
-    urgent_workspace   #900000   #900000  #ffffff
-    # brown, grey and orange color scheme
-    #focused_workspace  #E57910 #E57910 #ffffff
-    #active_workspace   #4B3621 #4B3621 #ffffff
-    #inactive_workspace #4B3621 #4B3621 #000000
-    #urgent_workspace   #2f343a #900000 #ffffff
-  }
+
+exec_always ~/.config/i3/polybar.sh
+
+bar
+{
+   mode hide
+   hidden_state hide
+   modifier Mod1
 }
+
