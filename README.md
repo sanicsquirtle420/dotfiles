@@ -3,7 +3,7 @@
 - WM: i3
 - PC Specs: *shown in the neofetch results below*
 
-Picture Taken: Feb. 26, 2022
+Picture Taken: Mar. 20, 2022
 ![](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/mar202022.png)
 
 ## Applications Used:
