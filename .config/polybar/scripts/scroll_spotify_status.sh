@@ -7,4 +7,6 @@ zscroll -l 30 \
         --match-command "/home/raccoon/.config/polybar/scripts/get_spotify_status.sh --status" \
         --match-text "Playing" "--scroll 1" \
         --match-text "Paused" "--scroll 0" \
-        --update-check true "/home/raccoon/.config/polybar/scripts/get_spotify_status.sh"
+        --update-check true "/home/raccoon/.config/polybar/scripts/get_spotify_status.sh" &
+        
+wait
