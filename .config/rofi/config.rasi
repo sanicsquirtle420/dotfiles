@@ -5,17 +5,17 @@ configuration {
   font: "Arimo Nerd Font Regular 10";
   modi: "window,run,drun";
   show-icons:   true;
-  icon-theme:   "dracula-icons";
+  icon-theme:   "Dracula";
 }
 
 @theme "/dev/null"
 
 * {
-  bg: #5D3FD3;
-  bg-alt: #89CFF0;
+  bg: #b5d273;
+  bg-alt: #fd8857;
 
   fg: #000000;
-  fg-alt: #E5E4E2;
+  fg-alt: #848884;
 
   background-color: @bg;
 
@@ -61,7 +61,7 @@ listview {
   padding: 8 12;
   background-color: @bg;
   columns: 1;
-  lines: 10;
+  lines: 6;
 }
 
 mainbox {
