@@ -46,7 +46,7 @@ bash_prompt() {
           ;;
     esac
 
-PS1="`EXT_COLOR 45`[\u]`EXT_COLOR 15` @ `EXT_COLOR 105`[\h]`EXT_COLOR 15` \${NEW_PWD} ${DEFAULT}$ "
+PS1="`EXT_COLOR 45`\u`EXT_COLOR 15` @ `EXT_COLOR 105`\h`EXT_COLOR 15` [\${NEW_PWD}] ${DEFAULT}$ "
 #PS1="[\u@\h \${NEW_PWD}]\\$ "
 }
 
