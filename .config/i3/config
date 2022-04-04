@@ -45,7 +45,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -178,9 +178,9 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 # window colors
 #                        border                  background              text                    indicator
-client.focused           #89CFF0                 #89CFF0                 #000000                 #00ff00
-client.focused_inactive  #5D3FD3                 #5D3FD3                 #E5E4E2                 #00ff00
-client.unfocused         #5D3FD3                 #5D3FD3                 #E5E4E2                 #00ff00
+client.focused           #ADD8E6                 #ADD8E6                 #000000                 #00ff00
+client.focused_inactive  #C3B1E1                 #C3B1E1                 #71797E                 #00ff00
+client.unfocused         #C3B1E1                 #C3B1E1                 #71797E                 #00ff00
 client.urgent            #450404                 #450404                 #FFFFFF                 #00ff00
 
 # starting compton
@@ -202,4 +202,3 @@ bar
     hidden_state hide
     modifier Mod1
 }
-
