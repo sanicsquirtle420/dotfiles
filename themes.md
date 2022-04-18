@@ -2,8 +2,8 @@
 To see which theme your eyes like the most here they all are in one place!
 
 ## Theme: Aqua
-![i3 image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/apr032022i3.png)
-i3 image: Apr. 03, 2022
+![i3 image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/apr172022i3.png)
+i3 image: Apr. 17, 2022
 
 
 ![Rofi image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/apr032022rofi.png)
