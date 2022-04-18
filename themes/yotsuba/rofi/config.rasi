@@ -11,7 +11,7 @@ configuration {
 @theme "/dev/null"
 
 * {
-  bg: #fd8857
+  bg: #fd8857;
   bg-alt: #b5d273;
 
   fg: #000000;
@@ -61,7 +61,7 @@ listview {
   padding: 8 12;
   background-color: @bg;
   columns: 1;
-  lines: 10;
+  lines: 6;
 }
 
 mainbox {
