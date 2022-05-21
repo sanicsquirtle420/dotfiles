@@ -5,8 +5,8 @@
 
 ## Pictures
 #### i3 Screenshot
-![i3 image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/apr172022i3.png)
-Picture Taken: Apr. 17, 2022
+![i3 image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/05-21-22main.png)
+Picture Taken: May 21, 2022
 
 Please look in [/dotfiles/pictures/](https://github.com/sanicsquirtle420/dotfiles/tree/main/pictures) for more pictures or older pictures.
 
