@@ -25,7 +25,7 @@ Formally used:
 - Noto Sans JP (for Japanese Symbols)
 
 ### Applications Used For Ricing:
-`cava cmatrix ranger htop neofetch` [zscroll](https://github.com/noctuid/zscroll)
+`cmatrix ranger htop neofetch` [cava](https://github.com/karlstav/cava) [zscroll](https://github.com/noctuid/zscroll)
 
 Formally used: 
 
