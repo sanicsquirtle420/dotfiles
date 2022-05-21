@@ -1,0 +1,34 @@
+# Quints Theme
+[color]
+gradient = 1
+gradient_count = 5
+
+gradient_color_1 = '#e3df88'
+gradient_color_2 = '#dd55dc'
+gradient_color_3 = '#3db0ff'
+gradient_color_4 = '#b5d270'
+gradient_color_5 = '#ed6960'
+
+# Aqua Theme
+[color]
+gradient = 1
+gradient_count = 2
+
+gradient_color_1 = '#89cff0'
+gradient_color_2 = '#a020f0'
+
+# Yotsuba Theme
+[color]
+gradient = 1
+gradient_count = 2
+
+gradient_color_1 = '#b5d273'
+gradient_color_2 = '#fd8857'
+
+# Mai Theme
+[color]
+gradient = 1
+gradient_count = 2
+
+gradient_color_1 = '#808080'
+gradient_color_2 = '#ee82ee'
