@@ -68,7 +68,7 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # lock
-bindsym $mod+Shift+x exec i3lock --color "$bg-color"
+bindsym $mod+Shift+x exec i3lock
 
 # move focused window
 bindsym $mod+Shift+j move left
@@ -149,7 +149,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec rofi -show p -modi p:rofi-power-menu   -font "Arimo Nerd Font 12"   -width 5   -lines 6
+bindsym $mod+Shift+e exec ~/.scripts/dmenu-power.sh
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
@@ -184,7 +184,7 @@ client.unfocused         #C3B1E1                 #C3B1E1                 #71797E
 client.urgent            #450404                 #450404                 #FFFFFF                 #00ff00
 
 # starting compton
-exec_always picom --config ~/.config/picom.conf
+exec_always picom --config ~/.config/picom/picom.conf
 
 # i3-gaps stuff
 gaps inner 5
@@ -193,6 +193,9 @@ smart_gaps on
 
 # switching themes
 bindsym $mod+Shift+t exec ~/.scripts/dmenu-select.sh
+
+# changing wallpapers
+bindsym $mod+Shift+w exec nitrogen --set-scaled --random ~/.wallpapers/Aqua
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available
