@@ -1,12 +1,12 @@
 # SanicSquirtle420's dotfiles
-- OS: Fedora 36
+- OS: Arch Linux
 - WM: i3
 - PC Specs: *shown in the neofetch results below*
 
 ## Pictures
-#### i3 Screenshot
-![i3 image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/05-21-22main.png)
-Picture Taken: May 21, 2022
+#### i3 / Rofi Preview
+![i3 image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/09-01-22main3.png)
+Picture Taken: Sep 01, 2022
 
 Please look in [/dotfiles/pictures/](https://github.com/sanicsquirtle420/dotfiles/tree/main/pictures) for more pictures or older pictures.
 
