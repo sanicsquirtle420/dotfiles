@@ -5,8 +5,8 @@
 
 ## Pictures
 #### i3 / Rofi Preview
-![i3 image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/09-01-22main3.png)
-Picture Taken: Sep 01, 2022
+![i3 image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/10-08-22main3.png)
+Picture Taken: Oct 08, 2022
 
 Please look in [/dotfiles/pictures/](https://github.com/sanicsquirtle420/dotfiles/tree/main/pictures) for more pictures or older pictures.
 
