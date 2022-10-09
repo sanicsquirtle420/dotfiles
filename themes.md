@@ -9,25 +9,15 @@ NOTE: If you want to see clearer pictures of the themes go to [/dotfiles/picture
 | `mm-dd-yyTHEME2`       | rofi image                               |
 | `mm-dd-yyTHEME3`       | preview image                            |
 
-## Theme: Aqua (WIP)
-![i3 image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/05-21-22aqua1.png)
-i3 image: May 21, 2022
+## Theme: Aqua
+![preview image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/10-08-22aqua3.png)
+Preview image: Oct 08, 2022
 
-
-![Rofi image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/05-21-22aqua2.png)
-
-Rofi Image: May 21, 2022
-
-## Theme: Yotsuba (WIP)
-![i3 image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/05-21-22yotsuba1.png)
-i3 image: May 21, 2022
-
-
-![Rofi image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/05-21-22yotsuba2.png)
-
-Rofi image: Mar. 20, 2022
+## Theme: Yotsuba
+![i3 image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/10-08-22yotsuba3.png)
+Preview image: Oct 08, 2022
 
 ## Theme: Mai
-![i3 rofi image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/08-31-22mai3.png)
-Preview Image: Aug 31, 2022
+![i3 rofi image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/10-08-22mai3.png)
+Preview image: Oct 08, 2022
 
