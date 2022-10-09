@@ -11,4 +11,4 @@ Please ignore this file :)
 ![op3](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/3024x3024-test.png)
 
 ## Option 4
-1[op4](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/1024%C3%97768-test.png)
+![op4](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/1024%C3%97768-test.png)
