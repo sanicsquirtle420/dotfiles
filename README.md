@@ -1,7 +1,6 @@
 # SanicSquirtle420's dotfiles
-- OS: Arch Linux
+- OS: Arch Linux         
 - WM: i3
-- PC Specs: *shown in the neofetch results below*
 
 ## Pictures
 #### i3 / Rofi Preview
@@ -20,10 +19,6 @@ For easy copy and pasting:
 
 `i3-gaps playerctl rofi compton nitrogen lxappearnce pulseaudio pavucontrol polybar kitty`
 
-Formally used:
-
-`alacritty`
-
 ## Fonts Used:
 - Arimo Nerd Font
 - AurulentSansMono Nerd Font
@@ -34,4 +29,4 @@ Formally used:
 
 Formally used: 
 
-[CLI Visualizer](https://github.com/dpayne/cli-visualizer) `peaclock`
+[CLI Visualizer](https://github.com/dpayne/cli-visualizer) `alacritty peaclock`
