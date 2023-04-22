@@ -22,5 +22,5 @@ Preview image: Oct 08, 2022
 Preview image: Apr 16, 2023
 
 ## Theme: Yotsuba
-![i3 image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/10-08-22yotsuba3.png)
-Preview image: Oct 08, 2022
+![i3 image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/04-22-23yotsuba3.png)
+Preview image: Apr 22, 2023
