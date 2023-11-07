@@ -17,7 +17,7 @@ configuration {
   modi: "drun";
 }
 
-@theme "/dev/null"
+@theme "/dev/null"  // Aqua
 
 * {
     color0:     #312c38bf;
