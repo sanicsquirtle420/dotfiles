@@ -1,77 +1,88 @@
+/////////////////////////////////////////////////////////
+//    __        __ _     ___             __ _          //
+//   /__\ ___  / _(_)   / __\___  _ __  / _(_) __ _    // 
+//  / \/// _ \| |_| |  / /  / _ \| '_ \| |_| |/ _` |   //
+// / _  \ (_) |  _| | / /__| (_) | | | |  _| | (_| |   //
+// \/ \_/\___/|_| |_| \____/\___/|_| |_|_| |_|\__, |   //
+//                                             |___/   //
+//                                                     //
+//                                        talfaza      //
+/////////////////////////////////////////////////////////
+
 configuration {
   display-drun: "Applications:";
-  display-window: "Windows:";
-  drun-display-format: "{name}";
-  font: "Arimo Nerd Font Regular 10";
-  modi: "window,run,drun";
-  show-icons:   true;
-  icon-theme:   "dracula-icons";
+  drun-display-format: "{icon} {name}";
+  font: "JetBrainsMono Nerd Font Medium 13";
+  show-icons: true;
+  modi: "drun";
 }
 
-@theme "/dev/null"
+@theme "/dev/null" // Mai
 
 * {
-  bg: #474747;
-  bg-alt: #535353;
 
-  fg: #e6d1d1;
-  fg-alt: #727883;
 
-  background-color: @bg;
+    color0:     #1c1e2159;
+    color1:     #000000;
+    color3:     #776690;
+    color4:     #e6add8;
+    color5:     #e6add8;
 
-  border: 0;
-  margin: 0;
-  padding: 0;
-  spacing: 0;
+
+
+    background-color:   #1c1e2159;
+    text-color:         @color3;
+    accent-color:       @color5;
+
+    margin:     0px;
+    border:     0px;
+    padding:    0px;
+    spacing:    0px;
 }
 
 window {
-  width: 30%;
-}
+    background-color:   @color0;
+    border-color:       @accent-color;
 
-element {
-  padding: 8 0;
-  text-color: @fg-alt;
-}
-
-element selected {
-  text-color: @fg;
-}
-
-element-text {
-  background-color: inherit;
-  text-color: inherit;
-  vertical-align: 0.5;
-}
-
-element-icon {
-  size: 30;
-}
-entry {
-  background-color: @bg-alt;
-  padding: 12;
-  text-color: @fg;
+    width:      45%;
+    border:     2px;
 }
 
 inputbar {
-  children: [prompt, entry];
+    padding:    10px 12px;
+    spacing:    10px;
+    children:   [ prompt, entry ];
 }
 
-listview {
-  padding: 8 12;
-  background-color: @bg;
-  columns: 1;
-  lines: 6;
-}
-
-mainbox {
-  background-color: @bg;
-  children: [inputbar, listview];
+prompt, entry, element-text, element-icon {
+    vertical-align: 0.5;
 }
 
 prompt {
-  background-color: @bg-alt;
-  enabled: true;
-  padding: 12 0 0 12;
-  text-color: @fg;
+    text-color: @accent-color;
+    enabled: true;
+    text-color: @color4;
+}
+
+listview {
+    lines:      8;
+    columns:    1;
+
+}
+
+element {
+    padding:    8px;
+    spacing:    4px;
+}
+
+element selected {
+    text-color: @color4;
+}
+
+element-icon {
+    size:   20;
+}
+
+element-text {
+    text-color: inherit;
 }
