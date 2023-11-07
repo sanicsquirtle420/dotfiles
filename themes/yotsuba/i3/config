@@ -32,7 +32,7 @@ exec --no-startup-id nm-applet
 exec_always --no-startup-id nitrogen --restore
 
 # start rofi (a program launcher)
-bindsym $mod+d exec $HOME/.config/rofi/launchers/type-2/launcher.sh
+bindsym $mod+d exec rofi -show drun
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
