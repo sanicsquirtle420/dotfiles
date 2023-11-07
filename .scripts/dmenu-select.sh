@@ -7,7 +7,7 @@ then
 	notify-send "You selected the $THEME theme. All config files have been updated." &&
 	cp -r $HOME/i3-themes/$THEME/i3/config $HOME/.config/i3/config &&
         
-	cp -r $HOME/i3-themes/$THEME/rofi/launchers/type-2/shared/colors.rasi $HOME/.config/rofi/launchers/type-2/shared/colors.rasi &&
+	cp -r $HOME/i3-themes/$THEME/rofi/config.rasi $HOME/.config/rofi/config.rasi &&
  
 	cp -r $HOME/i3-themes/$THEME/polybar/colors.ini $HOME/.config/polybar/colors.ini
 	i3-msg restart
