@@ -17,12 +17,13 @@ To see a preview of every theme go to [/dotfiles/themes.md](https://github.com/s
 ## Applications Used:
 For easy copy and pasting:
 
-`i3-gaps playerctl rofi compton nitrogen lxappearnce pulseaudio pavucontrol polybar kitty`
+`i3-gaps playerctl rofi picom nitrogen lxappearance pulseaudio pavucontrol polybar kitty`
 
 ## Fonts Used:
-- Arimo Nerd Font
-- AurulentSansMono Nerd Font
-- Noto Sans JP (for Japanese Symbols)
+- [Arimo Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Arimo.zip)
+- [AurulentSansMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/AurulentSansMono.zip)
+- [Noto Sans JP](https://fonts.google.com/noto/specimen/Noto+Sans+JP) (for Japanese Symbols)
+- [Noto Sans KR](https://fonts.google.com/noto/specimen/Noto+Sans+KR) (for Korean Symbols)
 
 ### Applications Used For Ricing:
 `cmatrix ranger htop neofetch` [cava](https://github.com/karlstav/cava) [zscroll](https://github.com/noctuid/zscroll)
