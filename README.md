@@ -18,6 +18,7 @@ To see a preview of every theme go to [/dotfiles/themes.md](https://github.com/s
 For easy copy and pasting:
 
 `i3-gaps playerctl rofi picom nitrogen lxappearance pulseaudio pavucontrol polybar kitty`
+[pulseaudio-control](https://aur.archlinux.org/packages/pulseaudio-control)
 
 ## Fonts Used:
 - [Arimo Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Arimo.zip)
