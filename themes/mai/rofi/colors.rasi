@@ -1,0 +1,14 @@
+// Mai Theme created by SanicSquirtle420
+// hhtps://github.com/sanicsquirtle420
+
+* {
+	color1: #1c1e2173 ;
+	color2: #776690 ;
+	color3: #e6add8;
+	black: #000000 ;
+	white: #FFFFFF ;
+}
+
+// color1 - dark gray (75% transparent)
+// color2 - purple
+// color3 - pink
