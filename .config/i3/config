@@ -189,7 +189,7 @@ gaps outer 5
 smart_gaps on
 
 # switching themes
-bindsym $mod+Shift+t exec ~/.scripts/dmenu-select.sh
+bindsym $mod+Shift+t exec selected=$(ls ~/.scripts/|rofi -dmenu -p "Run: ")&&bash ~/.scripts/$selected
 
 # changing wallpapers
 bindsym $mod+Shift+w exec nitrogen --set-scaled --random ~/.wallpapers/Aqua
