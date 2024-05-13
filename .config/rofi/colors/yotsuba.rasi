@@ -1,0 +1,16 @@
+/**
+ *
+ * Author : Diego (SanicSquirtle420)
+ * Github : @sanicsquirtle420
+ * 
+ * Yotsuba Colors
+ **/
+
+* {
+    background:     #3a4f41FF;
+    background-alt: #ffcb77FF;
+    foreground:     #ffffffFF;
+    selected:       #999f63FF;
+    active:         #ABE9B3FF;
+    urgent:         #F28FADFF;
+}
