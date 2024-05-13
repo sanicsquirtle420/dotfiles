@@ -3,8 +3,8 @@
 - WM: i3
 
 ## Pictures
-#### i3 / Rofi Preview
-![i3 image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/831dea01417c0808c54dcc592358ad437dd74e43/pictures/2024-05-12main.png)
+#### Preview
+![i3 image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/2024-05-12main.png)
 Picture Taken: May 12, 2024
 
 Please look in [/dotfiles/pictures/](https://github.com/sanicsquirtle420/dotfiles/tree/main/pictures) for more pictures or older pictures.
