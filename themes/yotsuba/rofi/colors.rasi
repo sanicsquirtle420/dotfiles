@@ -1,14 +1,4 @@
 // Yotsuba Theme created by SanicSquirtle420
 // hhtps://github.com/sanicsquirtle420
 
-* {
-	  color1: #3a4f4173 ; 
-	  color2: #999f63 ;
-	  color3: #ffcb77;
-	  black: #000000 ;
-	  white: #FFFFFF ;
-}
-
-// color1 - dark green (45% transparent)
-// color2 - lightish green
-// color3 - orange
+@import "~/.config/rofi/colors/yotsuba.rasi"
