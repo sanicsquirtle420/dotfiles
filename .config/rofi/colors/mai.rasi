@@ -1,0 +1,16 @@
+/**
+ *
+ * Author : Diego (SanicSquirtle420)
+ * Github : @sanicsquirtle420
+ * 
+ * Mai Colors
+ **/
+
+* {
+    background:     #1c1e21FF;
+    background-alt: #776690FF;
+    foreground:     #ffffffFF;
+    selected:       #e6add8FF;
+    active:         #ABE9B3FF;
+    urgent:         #F28FADFF;
+}
