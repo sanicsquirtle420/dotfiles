@@ -32,7 +32,7 @@ exec --no-startup-id nm-applet
 exec_always --no-startup-id nitrogen --restore
 
 # start rofi (a program launcher)
-bindsym $mod+d exec rofi -show drun
+bindsym $mod+d exec rofi -show drun -theme $HOME/.config/rofi/style-9.rasi
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -189,7 +189,7 @@ gaps outer 5
 smart_gaps on
 
 # switching themes
-bindsym $mod+Shift+t exec selected=$(ls ~/.scripts/|rofi -dmenu -p "Run: ")&&bash ~/.scripts/$selected
+bindsym $mod+Shift+t exec selected=$(ls ~/.scripts/|rofi -dmenu -p -theme $HOME/.config/rofi/style-9.rasi "Run: ")&&bash ~/.scripts/$selected
 
 # changing wallpapers
 bindsym $mod+Shift+w exec nitrogen --set-scaled --random ~/.wallpapers/Aqua
