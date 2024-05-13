@@ -1,0 +1,12 @@
+/**
+ *
+ * Author : Diego (SanicSquirtle420)
+ * Github : @sanicsquirtle420
+ * 
+ * Fonts
+ *
+ **/
+
+* {
+    font: "Arimo Nerd Font 10";
+}
