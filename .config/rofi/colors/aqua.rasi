@@ -1,0 +1,16 @@
+/**
+ *
+ * Author : Diego (SanicSquirtle420)
+ * Github : @sanicsquirtle420
+ * 
+ * Aqua Colors
+ **/
+
+* {
+    background:     #312c38FF;
+    background-alt: #776690FF;
+    foreground:     #ffffffFF;
+    selected:       #add8e6FF;
+    active:         #ABE9B3FF;
+    urgent:         #F28FADFF;
+}
