@@ -1,6 +1,6 @@
 # X11 Environment
 #export DISPLAY=":0.0"
-#location: /home/raccoon/.bashrc or ~/.bashrc
+#location: $HOME/.bashrc or ~/.bashrc
 
 #Don't put duplicate lines in the history.
 export HISTCONTROL=ignoredups
