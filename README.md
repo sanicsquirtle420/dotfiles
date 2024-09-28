@@ -7,12 +7,8 @@
 ![i3 image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/2024-05-12main.png)
 Picture Taken: May 12, 2024
 
-Please look in [/dotfiles/pictures/](https://github.com/sanicsquirtle420/dotfiles/tree/main/pictures) for more pictures or older pictures.
-
 ## NOTE: Themes
-The default theme in the original config files is the "Aqua" theme based off of Aqua from Konosuba, but also with purple my second favorite color. Any other themes will have different config files for i3, rofi, and neofetch located at [/dotfiles/themes/THEME_NAME/](https://github.com/sanicsquirtle420/dotfiles/tree/main/themes) 
-
-To see a preview of every theme go to [/dotfiles/themes.md](https://github.com/sanicsquirtle420/dotfiles/blob/main/themes/themes.md)
+Visit my [website](https://sanicsquirtle420.github.io/dotfiles.html) to see my themes! To see the images in their native resolution go to [/dotfiles/pictures/](https://github.com/sanicsquirtle420/dotfiles/tree/main/pictures)
 
 ## Applications Used:
 For easy copy and pasting:
