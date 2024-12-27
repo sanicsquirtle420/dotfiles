@@ -1,6 +1,6 @@
 #!/bin/bash
 
-THEME="Mai"
+THEME="Juno"
 
 notify-send "You selected the $THEME theme. All config files have been updated." &&
 	cp -r $HOME/.themes/$THEME/i3/colors.conf $HOME/.config/i3/colors.conf &&
