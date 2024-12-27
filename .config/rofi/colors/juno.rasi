@@ -3,14 +3,14 @@
  * Author : Diego (SanicSquirtle420)
  * Github : @sanicsquirtle420
  * 
- * Mai Colors
+ * Juno Colors
  **/
 
 * {
     background:     #1c1e21FF;
-    background-alt: #776690FF;
+    background-alt: #4a4188FF;
     foreground:     #ffffffFF;
-    selected:       #e6add8FF;
-    active:         #ABE9B3FF;
+    selected:       #f69afaFF;
+    active:         #d1abe9FF;
     urgent:         #F28FADFF;
 }
