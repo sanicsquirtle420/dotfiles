@@ -1,0 +1,4 @@
+// Juno Theme created by SanicSquirtle420
+// https://github.com/sanicsquirtle420
+
+@import "~/.config/rofi/colors/juno.rasi"
