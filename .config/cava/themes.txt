@@ -25,10 +25,10 @@ gradient_count = 2
 gradient_color_1 = '#b5d273'
 gradient_color_2 = '#fd8857'
 
-# Mai Theme
+# Juno Theme
 [color]
 gradient = 1
 gradient_count = 2
 
-gradient_color_1 = '#808080'
-gradient_color_2 = '#ee82ee'
+gradient_color_1 = '#4a4188'
+gradient_color_2 = '#f69afa'
