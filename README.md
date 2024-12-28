@@ -4,11 +4,11 @@
 
 ## Pictures
 #### Preview
-![i3 image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/main/pictures/2024-05-12main.png)
-Picture Taken: May 12, 2024
+![i3 image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/refs/heads/main/pictures/2024-12-27main.png)
+Picture Taken: Dec 27, 2024
 
 ## NOTE: Themes
-Visit my [website](https://sanicsquirtle420.github.io/dotfiles.html) to see my themes! To see the images in their native resolution go to [/dotfiles/pictures/](https://github.com/sanicsquirtle420/dotfiles/tree/main/pictures)
+Visit my [website](https://sanicsquirtle420.github.io/dotfiles.html) to see my themes! To see the images in their native resolution go to my [Tumblr](https://www.tumblr.com/blog/sanicsquirtle428) page
 
 ## Applications Used:
 For easy copy and pasting:
