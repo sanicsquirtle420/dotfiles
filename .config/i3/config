@@ -34,6 +34,8 @@ exec_always --no-startup-id nitrogen --restore
 # start rofi (a program launcher)
 bindsym $mod+d exec rofi -show drun -theme $HOME/.config/rofi/style-9.rasi
 
+exec_always --no-startup-id dunst --config $HOME/.config/dunst/dunstrc
+
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh>
