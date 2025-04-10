@@ -8,7 +8,7 @@
 Picture Taken: Dec 27, 2024
 
 ## NOTE: Themes
-Visit my [website](https://sanicsquirtle420.github.io/dotfiles.html) to see my themes! To see the images in their native resolution go to my [Tumblr](https://www.tumblr.com/blog/sanicsquirtle428) page
+Visit my [website](https://sanicsquirtle420.github.io/#/dotfiles) to see my themes! To see the images in their native resolution go to my [Tumblr](https://tumblr.com/blog/sanicsquirtle428) page
 
 ## Applications Used:
 For easy copy and pasting:
