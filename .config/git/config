@@ -1,0 +1,63 @@
+# Source: https://youtube.com/@codingjerk
+[user]
+    name = Diego Ruiz
+    email = dr1116uiz@gmail.com
+
+[core]
+    whitespace = error
+    preloadindex = true
+
+[init]
+    defaultBranch = maindi
+
+[status]
+    branch = true
+    showStash = true
+    showUntrackedFiles = all
+
+[diff]
+    context = 5
+    renames = copies
+    interHunkContext = 10
+
+[pager]
+    diff = diff-so-fancy | $PAGER
+
+[diff-so-fancy]
+    markEmptyLines = false
+
+[color "diff"]
+    meta = black bold
+    frag = magenta
+    context = white
+    whitespace = yellow reverse
+    old = red
+
+[interactive]
+    diffFilter = diff-so-fancy --patch
+    singlekey = true
+
+[push]
+    autoSetupRemote = true
+    default = current
+
+[pull]
+    default = current
+    rebase = true
+
+[rebase]
+    autoStash = true
+    missingCommitsCheck = warn
+
+[color "branch"]
+    current = magenta
+    local = default
+    remote = yellow
+    upstream = green
+    plain = blue
+
+[branch]
+    sort = -comitterdate
+
+[tag]
+    sort = -taggerdate
