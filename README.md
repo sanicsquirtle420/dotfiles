@@ -10,11 +10,20 @@ Picture Taken: Dec 27, 2024
 ## NOTE: Themes
 Visit my [website](https://sanicsquirtle420.github.io/#/dotfiles) to see my themes! To see the images in their native resolution go to my [Tumblr](https://tumblr.com/blog/sanicsquirtle428) page
 
-## Applications Used:
-For easy copy and pasting:
+## How to use my dotfiles
+I have created an install script `install-dotfiles.sh` to take care of the setup process. Before using the setup script download the following dependecies. You don't have to worry about the `pulseaudio-control` or `zscroll` setup because that is included in the install script. 
 
-`i3-gaps playerctl rofi picom nitrogen lxappearance pulseaudio pavucontrol polybar kitty`
-[pulseaudio-control](https://aur.archlinux.org/packages/pulseaudio-control)
+```bash
+i3 playerctl rofi picom nitrogen lxappearance pulseaudio pavucontrol polybar kitty python3
+```
+[pulseaudio-control](https://github.com/marioortizmanero/polybar-pulseaudio-control) [zscroll](https://github.com/noctuid/zscroll)
+
+## To use the script
+```bash
+cd Downloads/dotfiles/.scripts
+chmod +x install-dotfiles.sh
+./install-dotfiles.sh
+```
 
 ## Fonts Used:
 - [Arimo Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Arimo.zip)
@@ -23,8 +32,7 @@ For easy copy and pasting:
 - [Noto Sans KR](https://fonts.google.com/noto/specimen/Noto+Sans+KR) (for Korean Symbols)
 
 ### Applications Used For Ricing:
-`cmatrix ranger htop neofetch` [cava](https://github.com/karlstav/cava) [zscroll](https://github.com/noctuid/zscroll)
-
-Formally used: 
-
-[CLI Visualizer](https://github.com/dpayne/cli-visualizer) `alacritty peaclock`
+```bash
+cmatrix ranger htop neofetch
+``` 
+[cava](https://github.com/karlstav/cava)

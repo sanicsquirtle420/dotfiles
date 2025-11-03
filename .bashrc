@@ -58,9 +58,9 @@ alias la='ls -a'
 
 set -o vi
 
-alias vim='nvim' # vim -> neovim
-alias sudo='doas' # sudo -> doas
-export MANPAGER='nvim +Man!' # man pages open with neovim
+# alias vim='nvim' # vim -> neovim
+# alias sudo='doas' # sudo -> doas
+# export MANPAGER='nvim +Man!' # man pages open with neovim
 
 #Initializes the prompt
 PROMPT_COMMAND=bash_prompt
