@@ -1,10 +1,10 @@
 #!/bin/bash
 
-if [! -d $HOME/.scripts] ; then
+if [ ! -d $HOME/.scripts ] ; then
 	mkdir $HOME/.scripts
 fi
 
-if [! -d $HOME/.themes] ; then
+if [ ! -d $HOME/.themes ] ; then
 	mkdir $HOME/.themes
 fi
 
@@ -15,11 +15,15 @@ mkdir -p $HOME/.config/dunst
 mkdir -p $HOME/.config/git
 mkdir -p $HOME/.config/i3
 mkdir -p $HOME/.config/kitty
-mkdir -p $HOME/.config/neofetch
+mkdir -p $HOME/.config/fastfetch
 mkdir -p $HOME/.config/nvim
 mkdir -p $HOME/.config/picom
 mkdir -p $HOME/.config/polybar
 mkdir -p $HOME/.config/rofi
+mkdir -p $HOME/Pictures/fastfetch_icons
+
+echo "Moving fastfetch icons to $HOME/Pictures/fastfetch_icons"
+mv dotfiles/pictures/fastfetch_icons/* $HOME/Pictures/fastfetch_icons
 
 echo "Installing themes..."
 cd $HOME/Downloads
@@ -28,7 +32,7 @@ cp -r dotfiles/.config/dunst/* $HOME/.config/dunst/
 cp -r dotfiles/.config/git/* $HOME/.config/git/
 cp -r dotfiles/.config/i3/* $HOME/.config/i3/
 cp -r dotfiles/.config/kitty/* $HOME/.config/kitty/
-cp -r dotfiles/.config/neofetch/* $HOME/.config/neofetch/
+cp -r dotfiles/.config/fastfetch/* $HOME/.config/fastfetch/
 cp -r dotfiles/.config/nvim/* $HOME/.config/nvim/
 cp -r dotfiles/.config/picom/* $HOME/.config/picom/
 cp -r dotfiles/.config/polybar/* $HOME/.config/polybar/
@@ -36,7 +40,7 @@ cp -r dotfiles/.config/rofi/* $HOME/.config/rofi/
 cp -r dotfiles/themes $HOME/.themes
 cp -r dotfiles/.scripts* $HOME/.scripts
 
-echo "Making executable files..."
+echo "Making files executable..."
 chmod +x $HOME/.scripts/*
 chmod +x $HOME/.config/polybar/scripts/*
 chmod +x $HOME/.config/polybar/launch.sh
@@ -57,12 +61,12 @@ echo "Downloading pulseaudio-control"
 cd $HOME/Downloads
 git clone https://github.com/marioortizmanero/polybar-pulseaudio-control.git
 sudo mv $HOME/Downloads/polybar-pulseaudio-control/pulseaudio-control /usr/local/bin/
-sudo chmod +x /usr/local/bin/pulseaudio-control
 
 if [ $? -ne 0 ]; then
 	echo "pulseaudio-control install failed"
 	exit
 else
+	sudo chmod +x /usr/local/bin/pulseaudio-control
 	echo "pulseaudio-control installed!"
 fi
 

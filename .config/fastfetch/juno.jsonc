@@ -1,0 +1,47 @@
+{
+	"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+	"display": {
+		"color": {
+			"keys": "bold_magenta"
+		}
+	},
+	
+	"logo": {
+		"type": "kitty-icat",
+		"source": "$HOME/Pictures/fastfetch_icons/juno5.jpg",
+		"height": 30,
+		"width": 30
+	}, 
+	"modules": [
+		{
+			"type": "title",
+			"color": {
+				"user": "bold_magenta",
+				"at": "white",
+				"host": "bold_magenta"
+			}
+		},
+		"separator",
+		"os",
+		"packages",
+		"kernel",
+		"shell",
+		"separator",
+		{
+			"type": "cpu",
+			"showPeCoreCount": true,
+			"temp": true
+		},
+		{
+			"type": "gpu",
+			"driverSpecific": true,
+			"temp": true
+		},
+		"memory",
+		"separator",
+		"wm",
+		"terminal",
+		"break",
+		"colors"
+	]
+}
