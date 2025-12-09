@@ -25,7 +25,7 @@ chmod +x install-dotfiles.sh
 ```
 
 ## Themes
-To see preview images of my themes go to my (Github Pages)[https://sanicsquirtle420.github.io/#/dotfiles].
+To see preview images of my themes go to my [Github Pages](https://sanicsquirtle420.github.io/#/dotfiles).
 
 ## Fonts Used:
 - [Arimo Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Arimo.zip)
