@@ -4,8 +4,8 @@
 
 ## Pictures
 #### Preview
-![i3 image](https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/refs/heads/main/pictures/2024-12-27main.png)
-Picture Taken: Dec 27, 2024
+![i3 image](pictures/2025-12-29main.png)
+Picture Taken: Dec 29, 2025
 
 ## How to use my dotfiles
 I have created an install script `install-dotfiles.sh` to take care of the setup process. Before using the setup script download the following dependecies. You don't have to worry about the `pulseaudio-control` or `zscroll` setup because that is included in the install script. 
@@ -25,7 +25,7 @@ chmod +x install-dotfiles.sh
 ```
 
 ## Themes
-To see preview images of my themes go to my [Github Pages](https://sanicsquirtle420.github.io/#/dotfiles).
+To see preview images of my themes go to the [dotfiles](https://sanicsquirtle420.github.io/#/dotfiles) section on my GitHub pages website.
 
 ## Fonts Used:
 - [Arimo Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Arimo.zip)

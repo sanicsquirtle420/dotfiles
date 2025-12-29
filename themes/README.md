@@ -1,12 +1,12 @@
 # Theme Previews
-To see the previews go to my GitHub website's [Dotfiles](https://sanicsquirtle420.github.io/dotfiles#themePreviews) 
-section. 
+The image files for my themes are in this directory. To see the images go to the [dotfiles](https://sanicsquirtle420.github.io/#/dotfiles)
+section on my GitHub pages website.
 
-NOTE: If you want to see clearer pictures of the themes go to [/dotfiles/pictures/](https://github.com/sanicsquirtle420/dotfiles/tree/main/pictures) 
+## Aqua
+![Aqua Image](../pictures/2025-12-29aqua.png)
 
-|        File Number     |                 Meaning                  |
-| ---------------------- | ---------------------------------------- |
-| `yyyy-mm-ddTHEME`      | Preview Image                            |
-| `yyyy-mm-ddTHEMEx`     | Raw screenshot image                     |
-<br>
-<i>The x is a number and just represents how many raw screenshot images there are</i>
+## Juno
+![Juno Image](../pictures/2025-12-29juno.png)
+
+## Yotsuba
+![Yotsuba Image](../pictures/2025-12-29yotsuba.png)
