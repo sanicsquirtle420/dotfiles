@@ -2,13 +2,14 @@
 [user]
     name = Diego Ruiz
     email = dr1116uiz@gmail.com
+    signingkey = # gpg --list-secret-keys --keyid-format=long
 
 [core]
     whitespace = error
     preloadindex = true
 
 [init]
-    defaultBranch = maindi
+    defaultBranch = main
 
 [status]
     branch = true
@@ -60,4 +61,10 @@
     sort = -comitterdate
 
 [tag]
-    sort = -taggerdate
+	sort = -taggerdate
+
+[sendemail]
+	smtpEncryption = tls
+	smtpServer = smtp.gmail.com
+	smtpUser = dr1116uiz@gmail.com
+	smtpServerPort = 587

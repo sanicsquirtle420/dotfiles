@@ -17,12 +17,12 @@ wht='\[\033[01;37m\]'   # White
 clr='\[\033[00m\]'
 
 function git_branch() {
-    printf "%s" "($(git branch 2> /dev/null | awk '/\*/{print $2}'))";
+	git symbolic-ref --short HEAD 2>/dev/null | awk '{print "("$0")"}'
 }
 
 function bash_prompt() {
-    if [ -d .git ] ; then
-        PS1="${cyn}$(git_branch) ${pur}\W${wht} \$ ${clr}"
+    if git rev-parse --show-toplevel >/dev/null 2>&1 ; then
+	   PS1="${cyn}\$(git_branch) ${pur}\W${wht} \$ ${clr}"
     else
         local pwdmaxlen=30
         local trunc=".."
@@ -58,9 +58,9 @@ alias la='ls -a'
 
 set -o vi
 
-# alias vim='nvim' # vim -> neovim
-# alias sudo='doas' # sudo -> doas
-# export MANPAGER='nvim +Man!' # man pages open with neovim
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 #Initializes the prompt
 PROMPT_COMMAND=bash_prompt
